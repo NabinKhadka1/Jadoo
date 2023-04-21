@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Volkhov:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css Link File -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <title>Jadoo</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__center container">
+        <div class="header__logo">
+          <img src="/Logo.png" alt="Logo" />
+        </div>
+        <div id="nav__menu" class="nav__menu">
+          <img src="/menu.png" alt="Menu" />
+        </div>
+        <nav class="nav">
+          <ul>
+            <li class="nav--list destination">
+              <a href="#destinations">Destinations</a>
+            </li>
+            <li class="nav--list"><a href="#destinations">Hotels</a></li>
+            <li class="nav--list"><a href="#brands">Flights</a></li>
+            <li class="nav--list">
+              <a href="#bookings">Bookings</a>
+            </li>
+            <li class="nav--list"><a href="#">Login</a></li>
+            <li class="nav--list"><a href="#">Sign up</a></li>
+            <li class="nav--list">
+              <select>
+                <option value="EN">EN</option>
+              </select>
+            </li>
+          </ul>
+        </nav>
+        <div class="dropdown__items">
+          <a class="active" href="#destinations">Destinations</a>
+          <a href="#destinations">Hotels</a>
+          <a href="#brands">Flights</a>
+          <a href="#bookings">Bookings</a>
+          <a href="#">Login</a>
+          <a class="btn-primary" href="#">Sign up</a>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="container hero__center">
+          <div class="hero__content">
+            <p class="hero__title">Best Destinations around the world</p>
+            <h1 class="hero__heading">
+              Travel, <span>enjoy</span> and live a new and full life
+            </h1>
+            <p class="hero__slogan">
+              Built Wicket longer admire do barton vanity itself do in it.
+              Preferred to sportsmen it engrossed listening. Park gate sell they
+              west hard for the.
+            </p>
+            <div class="hero__cta">
+              <a class="cta__info" href="#">Find out more</a>
+              <div class="cta__demo">
+                <img
+                  class="cta__image--play"
+                  src="/play-button.png"
+                  alt="Play Button"
+                />
+                <span class="cta__txt">Play Demo</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero__image--container">
+            <img class="hero__image" src="/hero-image.png" alt="Hero Image" />
+          </div>
+        </div>
+      </div>
+      <div class="background--image">
+        <img src="/decore.png" alt="Decore Image" />
+      </div>
+    </header>
+
+    <!-- Service Section -->
+    <section id="services">
+      <p class="title">CATEGORY</p>
+      <h2 class="heading">We Offer Best Services</h2>
+
+      <div class="service">
+        <article class="service__article">
+          <img src="/satellite.png" alt="Satellite" />
+          <h4>Calculated Weather</h4>
+          <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+        </article>
+        <article class="service__article">
+          <img src="/plane.png" alt="Flights" />
+          <h4>Best Flights</h4>
+          <p>Engrossed listening. Park gate sell they west hard for the.</p>
+        </article>
+        <article class="service__article">
+          <img src="/events.png" alt="Events" />
+          <h4>Local Events</h4>
+          <p>
+            Barton vanity itself do in it. Preferd to men it engrossed
+            listening.
+          </p>
+        </article>
+        <article class="service__article">
+          <img src="/customization.png" alt="Customization" />
+          <h4>Customization</h4>
+          <p>We deliver outsourced aviation services for military customers</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations">
+      <p class="title">Top Selling</p>
+      <h2 class="heading">Top Destinations</h2>
+
+      <div class="locations">
+        <article class="locations__article">
+          <div class="locations__image">
+            <img src="/destination1.png" alt="Destination1" />
+          </div>
+          <p class="location__package">Rome, Italy<span>$5,42k</span></p>
+          <div class="location__span">
+            <img src="/fly.png" alt="Fly" />
+            <span>10 Days Trip</span>
+          </div>
+        </article>
+
+        <article class="locations__article">
+          <div class="locations__image">
+            <img src="/destination2.png" alt="Destination2" />
+          </div>
+          <p class="location__package">London, UK<span>$4,2k</span></p>
+          <div class="location__span">
+            <img src="/fly.png" alt="Fly" />
+            <span>12 Days Trip</span>
+          </div>
+        </article>
+
+        <article class="locations__article">
+          <div class="locations__image">
+            <img src="/destination3.png" alt="Destination3" />
+          </div>
+          <p class="location__package">Full Europe <span>$15k</span></p>
+          <div class="location__span">
+            <img src="/fly.png" alt="Fly" />
+            <span>28 Days Trip</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Bookings Section -->
+    <section id="bookings">
+      <p class="title">Easy and Fast</p>
+      <div class="booking">
+        <div class="booking__context">
+          <h1 class="heading">Book your next trip in 3 easy steps</h1>
+          <div class="features">
+            <div class="feature">
+              <img src="/choose-des.png" alt="Choose Destination" />
+              <div class="feature__header">
+                <h4 class="feature__title">Choose Destination</h4>
+                <p class="feature__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                  tortor tempus.
+                </p>
+              </div>
+            </div>
+            <div class="feature">
+              <img src="/make-payment.png" alt="Make Payment" />
+              <div class="feature__header">
+                <h4 class="feature__title">Make Payment</h4>
+                <p class="feature__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                  tortor tempus.
+                </p>
+              </div>
+            </div>
+            <div class="feature">
+              <img src="/reach-airport.png" alt="Reach Airport" />
+              <div class="feature__header">
+                <h4 class="feature__title">Reach Airport on Selected Date</h4>
+                <p class="feature__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                  tortor tempus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="booking__image">
+          <div class="card__image">
+            <img src="/greece.jpg" alt="Greece" />
+          </div>
+          <div class="card__info">
+            <p class="card__title">Trip To Greece</p>
+            <p class="card__desc">
+              <span>14-29 June | by Robbin joseph</span>
+            </p>
+            <p class="card__svgs">
+              <img src="/leaf.png" alt="Leaf" />
+              <img src="/map.png" alt="Map" />
+              <img src="/send.png" alt="Send" />
+            </p>
+            <div class="visitors__count">
+              <div class="card__visitors--count">
+                <img src="/building.png" alt="Buildings" />
+                <span>24 people going</span>
+              </div>
+              <img src="/heart.png" alt="Heart" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <p class="title">Testimonials</p>
+
+      <div class="testimonial">
+        <div class="testimonial__titles">
+          <h1 class="heading">What People Say About Us.</h1>
+          <p>
+            <img src="/ellipse1.png" alt="Ellipse1" />
+            <img src="/ellipse2.png" alt="Ellipse2" />
+            <img src="/ellipse3.png" alt="Ellipse3" />
+          </p>
+        </div>
+        <div class="testimonial__content">
+          <blockquote>
+            “On the Windows talking painted pasture yet its express parties use.
+            Sure last upon he same as knew next. Of believed or diverted no.”
+          </blockquote>
+          <h4>Mike taylor</h4>
+          <p>Lahore, Pakistan</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section id="brands">
+      <img class="brands__axon" src="/axon.png" alt="Axon" />
+      <img class="brands__jetstar" src="/jetstar.png" alt="Jetstar" />
+      <img class="brands__expedia" src="/expedia.png" alt="Expedia" />
+      <img class="brands__qantas" src="/qantas.png" alt="Qantas" />
+      <img class="brands__alitalia" src="/alitalia.png" alt="Alitalia" />
+    </section>
+
+    <!-- Subscribe Section -->
+    <section id="subscribe">
+      <div class="subscribe__info">
+        <h1 class="heading">
+          Subscribe to get information, latest news and other interesting offers
+          about Jadoo
+        </h1>
+        <form class="subscribe__form">
+          <input type="text" placeholder="Your email" />
+          <a class="subscribe__btn" href="#">Subscribe</a>
+        </form>
+        <div class="subscribe__image">
+          <img src="/subscribe-play.png" alt="Subscribe Play" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+      <div class="footer__wrapper">
+        <div class="footer__content">
+          <div class="brand__content">
+            <h1>Jadoo</h1>
+            <p>Book your trip in minute, get full Control for much longer.</p>
+          </div>
+          <div class="footer__nav--wrapper">
+            <div class="footer__nav">
+              <h4>Company</h4>
+              <ul class="footer__nav--menu">
+                <li><a href="#" class="footer__a">About</a></li>
+                <li><a href="#" class="footer__a">Careers</a></li>
+                <li><a href="#" class="footer__a">Mobile</a></li>
+              </ul>
+            </div>
+            <div class="footer__nav">
+              <h4>Contact</h4>
+              <ul class="footer__nav--menu">
+                <li><a href="#" class="footer__a">Help/FAQ</a></li>
+                <li><a href="#" class="footer__a">Press</a></li>
+                <li><a href="#" class="footer__a">Affilates</a></li>
+              </ul>
+            </div>
+            <div class="footer__nav">
+              <h4>More</h4>
+              <ul class="footer__nav--menu">
+                <li><a href="#" class="footer__a">Airlinefees</a></li>
+                <li><a href="#" class="footer__a">Airline</a></li>
+                <li><a href="#" class="footer__a">Low fare tips</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__cta">
+            <div class="footer__socials">
+              <img src="/facebook.png" alt="Facebook" />
+              <img src="/instagram.png" alt="Instagram" />
+              <img src="/twitter.png" alt="Twitter" />
+            </div>
+            <p>Discover our app</p>
+            <div class="footer__socials--btn">
+              <div class="footer__btn--container">
+                <img
+                  class="play-image"
+                  src="/google-play.png"
+                  alt="Google Play Store"
+                />
+                <img
+                  class="play-info"
+                  src="/g-play-store.png"
+                  alt="Get Google Play"
+                />
+              </div>
+              <div class="footer__btn--container">
+                <img class="a-play-image" src="/apple.png" alt="Apple Store" />
+                <img
+                  class="play-info"
+                  src="/a-play-store.png"
+                  alt="Get Apple Play"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="footer__rights">All rights reserved@jadoo.co</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
