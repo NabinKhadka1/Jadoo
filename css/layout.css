@@ -32,6 +32,7 @@ header {
   font-size: 1.0625rem;
   line-height: 1.375rem;
   color: var(--clr-secondary-black);
+  transition: all 0.3s ease-in-out;
 }
 .nav--list > a:hover {
   color: var(--clr-primary-orange);
@@ -48,6 +49,8 @@ header {
   border: none;
   outline: none;
   background: none;
+  font-size: 1.0625rem;
+  color: var(--clr-primary-black);
 }
 
 .hero {
@@ -139,26 +142,32 @@ header {
 .dropdown__items {
   position: absolute;
   display: none;
-  height: 0;
+  height: 0px;
   flex-direction: column;
   right: 0;
-  padding-right: 10px;
-  top: 50px;
+  top: 60px;
   overflow: hidden;
-  margin: 10px;
+  padding: 10px;
   border-radius: 5px;
+  background: transparent;
 }
 .dropdown__items.open {
   display: flex;
   height: auto;
+  background-color: var(--clr-primary-black);
 }
 .dropdown__items > a {
-  color: var(--clr-secondary-black);
+  padding: 0.25rem 0 0.25rem 0.25rem;
+  color: var(--clr-primary-white);
 }
 .dropdown__items > a:hover {
   color: var(--clr-primary-orange);
 }
-
+.dropdown__signup {
+  padding: 0.5625rem 1.3125rem;
+  border: 1px solid var(--clr-primary-orange);
+  border-radius: 0.25rem;
+}
 #services {
   padding: 3.125rem 1.25rem;
   display: flex;
