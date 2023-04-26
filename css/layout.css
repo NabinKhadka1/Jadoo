@@ -159,6 +159,7 @@ header {
 .dropdown__items > a {
   padding: 0.25rem 0 0.25rem 0.25rem;
   color: var(--clr-primary-white);
+  text-align: center;
 }
 .dropdown__items > a:hover {
   color: var(--clr-primary-orange);
